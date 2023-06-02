@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="VSS HTML Tags  HTML, CSS3, JavaScript " />
+    <meta name="keywords" content="HTML, CSS, JavaScript , React , Nodejs" />
+    <meta name="author" content="Yash" />
+    <meta
+      property="Headphone"
+      content="http://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Sony-WH-1000XM5-Black.jpg?v=1663741826&width=2048"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags</title>
+    <style>
+      body {
+        background: linear-gradient(to left, #7474bf, #348ac7);
+
+        /* background: url(./17609844_rm405-a02c-mockup.jpg); */
+        /* background-size: cover; */
+      }
+
+      .Container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .heading {
+        color: white;
+      }
+      .form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .img {
+        width: 100px;
+      }
+
+      label {
+        color: white;
+      }
+
+      .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+        padding: 8px 0;
+      }
+
+      .yes {
+        margin-left: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <form class="form">
+        <h1 class="heading">Please Fill the Form</h1>
+        <img class="img" src="./call.png" alt="" />
+        <div class="inputs">
+          <label for="fname">FirstName</label>
+          <input type="text" class="input" placeholder="Enter Your firstName" />
+          <br />
+          <label for="lname">LastName</label>
+          <input type="text" class="input" placeholder="Enter Your lastName" />
+          <br />
+          <label>Phone No:-</label>
+          <input type="number" class="input" /><br />
+          <label>Email</label>
+          <input type="email" class="input" /><br />
+          <label>Date of birth</label>
+          <input type="date" class="input" /><br />
+          <label>Resume</label>
+          <input type="file" class="input" /><br />
+
+          <div>
+            <label for="gender"
+              >Gender: Male <input type="radio" class="inputt" />
+            </label>
+
+            <label for="gender"
+              >female <input type="radio" class="inputt" />
+            </label>
+          </div>
+
+          <div>
+            <label class="work"
+              ><strong>Are You working AnyWhere</strong></label
+            >
+            <label>
+              <br />
+              <span class="yes">Yes</span>
+              <input type="checkbox" class="inputt" />
+            </label>
+            <label
+              ><span class="yes">No</span>
+              <input type="checkbox" class="inputt" />
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
